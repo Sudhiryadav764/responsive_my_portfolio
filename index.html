@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <!--...font-awesome CDN link...-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--...main css link...-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+</head>
+
+<body>
+    <!--...Header design...-->
+    <header class="header">
+        <a href="#" class="logo">Logo</a>
+        <div id="menu" onclick="onClickMenu()">
+            <div class="bar" id="bar1"></div>
+            <div class="bar" id="bar2"></div>
+            <div class="bar" id="bar3"></div>
+        </div>
+
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <ul id="side-menu" class="side-menu" onclick="onClickMenu()">
+        <li><a href="#home" class="active">Home</a></li>
+        <li> <a href="#about">About</a></li>
+        <li> <a href="#service">Service</a></li>
+        <li> <a href="#portfolio">Portfolio</a></li>
+        <li> <a href="#contact">Contact</a></li>
+    </ul>
+
+    <!--...Main section design...-->
+    <section class="home" id="home">
+        <div class="home-contant">
+            <h3>Hi,Myself</h3>
+            <h1>Sudhir kumar</h1>
+            <h3>And I'm a <span>Full Stack Developer.</span></h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
+                minima qui sapiente numquam quam error velit voluptatem, totam
+                provident illo consectetur atque eaque tempora. Qui nesciunt officia
+                explicabo consectetur recusandae.
+            </p>
+            <div class="social-media-icon">
+                <a href="https://www.linkedin.com/in/sudhir-kumar-ray/" target="_blank"><i class="fa-brands fa-linkedin-in" ></i></a>
+                <a href="https://github.com/Sudhiryadav764" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="assets/profille.jpg" alt="profile pic" />
+        </div>
+    </section>
+
+    <!--...About section ...-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/profille.jpg" alt="About img" />
+        </div>
+
+        <div class="about-contant">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>
+                I'm passionate about problem solving.I'm a dedicated <span>BCA Student</span> with a passion for <span>Web Development</span> and problem-solving. With a strong foundation in computer science, I thrive on tackling challenges and creating innovative solutions. As a web developer, I enjoy crafting intuitive and dynamic websites that deliver seamless user experiences. My goal is to continuously learn and grow in both technical skills and problem-solving abilities, pushing the boundaries of what's possible in the digital world
+            </p>
+            <div class="about-btn">
+                <a href="" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--...Service section ...-->
+
+    <section class="service" id="service">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="service-container">
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Our web development services provide custom, user-friendly websites that are visually appealing and fully responsive.</p>
+                <a href="webservice.html" class="btn">Read more</a>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UX/UI Design</h3>
+                <p>Our UX/UI design services prioritize creating intuitive and engaging user experiences. 
+                </p>
+                <a href="" class="btn">Read more</a>
+
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-pen-nib"></i>
+                <h3>Graphic Design</h3>
+                <p>Our graphic design services combine creativity and strategy to produce stunning visuals that communicate your brand's message effectively. </p>
+                <a href="" class="btn">Read more</a>
+            </div>
+        </div>
+
+    </section>
+    <!--...Portfolio section ...-->
+
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Letest <span>Project</span> </h2>
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="assets/services-pic1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h2>Web Devlopment</h2>
+                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. .</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="assets/services-pic2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h2>UX/UI Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    <a href=""> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="assets/services-pic3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h2>Graphic Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form onsubmit="emailSend(); reset(); return false;">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required id="name">
+                <input type="email" placeholder="Email" required id="email">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Phone No." required id="phone">
+                <input type="text" placeholder="Email Subject" required id="sub">
+            </div>
+            <div class="text-area">
+
+                <textarea name="textareas" id="" cols="30" rows="8" placeholder="Your Message" id="areas"></textarea>
+            </div>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--...Footer Design ...-->
+
+    <footer class="footer">
+
+        <div class="footer-text">
+
+            <p>Copyright &copy; 2024 by @sudhirkumaryadav| All Rights Reserved.</p>
+
+        </div>
+
+        <div class="footer-icon-Top">
+
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+
+        </div>
+
+    </footer>
+    <!-- ==========main js=========== -->
+        <script src="script.js"></script>
+    <!-- =========smtpjs Email send======== -->
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</body>
+
+</html>
