@@ -1,2 +1,2 @@
-# responsive_my_portfolio
+# responsive_portfolio
 Full responsive portfolio website using html, css, js
